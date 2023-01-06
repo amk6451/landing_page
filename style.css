@@ -32,7 +32,8 @@ ul {
     gap: 16px
  
   }
-a{color: inherit;}
+a{color: inherit;
+ text-decoration: none;}
 
 .header-content{
     display: flex;
@@ -61,11 +62,13 @@ outline: 2px solid;
     height: 300px;
 }
 
-h1{
+.header-text-portion h1{
 font-size:48px;
 color: #F9FAF8;
+font-weight: bold;
+
 }
-h2{
+.header-text-portion h2{
 font-size: 18px;
 color: #E5E7EB;
 }
@@ -99,8 +102,8 @@ text-align: center;
     max-width: 200px;
   }
   .info img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #3882F6;
     border-radius: 15px;
   }
@@ -118,7 +121,7 @@ text-align: center;
     font-size: 36px;
     color: #1F2937;
  }
- 
+
  .quote-section p
  {
     text-align: right;
@@ -126,7 +129,44 @@ text-align: center;
     color: #1F2937;   
  }
 
+.ad-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 16px;
+    margin: 20px;
 
+}
+.blue-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 4px;
+    background-color: #3882F6;
+    border-radius: 5px;
+
+}
+
+
+.blue-box h1{
+color: white;
+font-weight:bold;
+}
+.blue-box h2{
+  color: white
+ 
+}
+.blue-box button{
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: #3882F6;
+  color: white;
+  
+}
 .footer{
     display: flex;
     justify-content: center;
