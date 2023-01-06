@@ -5,6 +5,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+
   }
 
 .header{
@@ -12,23 +13,63 @@ body {
   justify-content: space-between;
   padding: 16px;
 
-  /* background-color: #1F2937;
-  color: white; */
+  margin: 4px;
+  outline: 2px solid;
+  background-color: #1F2937;
+  color: #F9FAF8;
 }
 
-.logo {
+.logo
+{
 font-size: 24px;
 }
 ul {
     display: flex;
     list-style: none;
+    color: #F9FAF8;
     margin: 0;
     padding: 0;
     gap: 16px
+ 
   }
+a{color: inherit;}
 
+.header-content{
+    display: flex;
+    padding: 16px;
+    margin: 4px;
+    outline: 2px solid;
+    background-color: #1F2937;
+}
 
+.header-text-portion{
+display: flex;
+flex-direction: column;
+margin: 4px;
+outline: 2px solid;
 
+}
+.header-picture-portion{
+display: flex;
+margin: 4px;
+outline: 2px solid;
+}
+h1{
+font-size: 48px;
+color: #F9FAF8;
+
+}
+h2{
+font-size: 18px;
+color: #F9FAF8;
+}
+.signup{
+width: 70px;
+height: 40px;
+border-radius: 10%;
+background-color: #3882F6;
+color: white;
+}
 .footer{
     display: flex;
     justify-content: center;
