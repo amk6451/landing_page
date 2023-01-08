@@ -137,29 +137,30 @@ padding-bottom: 96px;
     font-size: 12px;
     padding: 16px;
     margin: 20px;
-    
-
 }
 .blue-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding: 48px;
     margin: 4px;
     background-color: #3882F6;
     border-radius: 5px;
-
 }
-
 
 .blue-box h1{
 color: white;
 font-weight:bold;
 }
+
 .blue-box h2{
   color: white
- 
 }
+
+.group-text{
+  padding-right: 96px;
+}
+
 .blue-box button{
   width: 70px;
   height: 40px;
