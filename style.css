@@ -36,21 +36,16 @@ a {
 .header-content {
     display: flex;
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 96px;
     padding-left: 32px;
     padding-right: 32px;
-    /* margin: 4px; */
     background-color: #1F2937;
 }
 
-.header-text-portion{
-/* display: flex; */
-/* flex-direction: column; */
+.header-text-portion {
 overflow-wrap: normal;
-/* margin: 4px; */
-/* outline: 2px solid; */
-
 }
+
 .header-picture-portion{
 display: flex;
 margin-left: 100px;
@@ -76,7 +71,7 @@ color: #E5E7EB;
 margin-top: 20px;
 margin-bottom: 20px;
 }
-.signup{
+.signup {
 width: 70px;
 height: 40px;
 border-radius: 10%;
@@ -86,6 +81,8 @@ color: white;
 
 .middle-section{
 text-align: center;
+padding-top: 36px;
+padding-bottom: 96px;
     
 }
 
@@ -140,6 +137,7 @@ text-align: center;
     font-size: 12px;
     padding: 16px;
     margin: 20px;
+    
 
 }
 .blue-box{
